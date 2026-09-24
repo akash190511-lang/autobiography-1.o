@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Akash — The Journey</title>
+<meta name="description" content="Akash — memories, growth, achievements and the road ahead.">
+<style>
+:root{--bg:#070707;--card:#111;--text:#f7f3ea;--muted:#aaa;--line:#2a2a2a;--gold:#e5bf72}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}
+nav{position:fixed;z-index:20;top:16px;left:50%;transform:translateX(-50%);width:min(94%,900px);display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border:1px solid #333;border-radius:40px;background:#080808cc;backdrop-filter:blur(16px)}
+.logo{font-weight:900;letter-spacing:.12em}.links a{color:#ddd;text-decoration:none;margin-left:18px;font-size:13px}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:110px 6%;background:radial-gradient(circle at 50% 25%,#302719,#0d0c0a 38%,#070707 72%)}
+.kicker,.label{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:11px}.hero h1,.title,blockquote{font-family:Georgia,serif}
+.hero h1{font-size:clamp(55px,10vw,130px);line-height:.88;margin:20px 0}.hero p{max-width:700px;color:#bbb;font-size:18px;margin:auto}.cta{display:inline-block;margin-top:30px;padding:12px 22px;border:1px solid #555;border-radius:30px;color:#fff;text-decoration:none}
+section{max-width:1250px;margin:auto;padding:105px 6%}.title{font-size:clamp(40px,6vw,75px);line-height:.98;margin:12px 0 42px}.story{display:grid;grid-template-columns:1fr 1fr;gap:55px}.story p{color:#bbb;font-size:18px}
+.timeline{border-left:1px solid #444;padding-left:30px;margin-left:8px}.moment{position:relative;margin:0 0 45px}.moment:before{content:"";position:absolute;left:-37px;top:7px;width:10px;height:10px;border:2px solid var(--gold);border-radius:50%;background:var(--bg)}.moment h3{margin:3px 0;font-size:22px}.moment p{color:#aaa}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.pic{position:relative;overflow:hidden;border-radius:18px;background:#111;border:1px solid #252525;aspect-ratio:3/4}.pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}.pic:hover img{transform:scale(1.05)}.caption{position:absolute;left:0;right:0;bottom:0;padding:35px 13px 13px;background:linear-gradient(transparent,#000d);font-size:12px;color:#eee}
+.quote{padding:100px 6%;text-align:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}blockquote{font-size:clamp(30px,5vw,60px);line-height:1.1;max-width:950px;margin:20px auto}.future{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{padding:30px;border:1px solid var(--line);border-radius:22px;background:var(--card)}.card p{color:#aaa}footer{text-align:center;padding:65px 20px;color:#777;border-top:1px solid var(--line)}
+@media(max-width:800px){.links{display:none}.story,.future{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}section{padding:75px 6%}}
+</style>
+</head>
+<body>
+<nav><div class="logo">AKASH.</div><div class="links"><a href="#story">Story</a><a href="#memories">Memories</a><a href="#future">Future</a></div></nav>
+
+<header class="hero">
+<div><div class="kicker">A life in progress</div>
+<h1>Not just<br>a journey.</h1>
+<p>Some memories become photographs. Some become lessons. And some quietly become the person we are becoming.</p>
+<a class="cta" href="#story">Enter the journey ↓</a></div>
+</header>
+
+<section id="story"><div class="label">01 — The story</div>
+<div class="story"><div><h2 class="title">Every version of me<br>led to this one.</h2></div>
+<div><p>This is a personal archive of memories, growth, learning, achievements and the moments that shaped the journey.</p>
+<p>Not a perfect story. A real one — with ordinary days, small wins, challenges and reasons to keep moving.</p></div></div></section>
+
+<section><div class="label">02 — The chapters</div><h2 class="title">Moments that stayed.</h2>
+<div class="timeline">
+<div class="moment"><div class="label">Chapter 01</div><h3>The beginning</h3><p>The earliest memories — the starting point of a story still being written.</p></div>
+<div class="moment"><div class="label">Chapter 02</div><h3>Growing up</h3><p>New places, school days, curiosity, friendships and experiences.</p></div>
+<div class="moment"><div class="label">Chapter 03</div><h3>Learning & achieving</h3><p>Certificates, competitions, lessons and the small milestones that became meaningful.</p></div>
+<div class="moment"><div class="label">Chapter 04</div><h3>Becoming</h3><p>New ambitions, discipline and a clearer idea of the person I want to become.</p></div>
+</div></section>
+
+<section id="memories"><div class="label">03 — Memories</div><h2 class="title">The photographs<br>remember for me.</h2>
+<div class="gallery">
+<figure class="pic"><img src="photos/memory-01.jpg" alt="Memory 1"><figcaption class="caption">Memory 01</figcaption></figure>
+<figure class="pic"><img src="photos/memory-02.jpg" alt="Memory 2"><figcaption class="caption">Memory 02</figcaption></figure>
+<figure class="pic"><img src="photos/memory-03.jpg" alt="Memory 3"><figcaption class="caption">Memory 03</figcaption></figure>
+<figure class="pic"><img src="photos/memory-04.jpg" alt="Memory 4"><figcaption class="caption">Memory 04</figcaption></figure>
+<figure class="pic"><img src="photos/memory-05.jpg" alt="Memory 5"><figcaption class="caption">Memory 05</figcaption></figure>
+<figure class="pic"><img src="photos/memory-06.jpg" alt="Memory 6"><figcaption class="caption">Memory 06</figcaption></figure>
+<figure class="pic"><img src="photos/memory-07.jpg" alt="Memory 7"><figcaption class="caption">Memory 07</figcaption></figure>
+<figure class="pic"><img src="photos/memory-08.jpg" alt="Memory 8"><figcaption class="caption">Memory 08</figcaption></figure>
+<figure class="pic"><img src="photos/memory-09.jpg" alt="Memory 9"><figcaption class="caption">Memory 09</figcaption></figure>
+<figure class="pic"><img src="photos/memory-10.jpg" alt="Memory 10"><figcaption class="caption">Memory 10</figcaption></figure>
+<figure class="pic"><img src="photos/memory-11.jpg" alt="Memory 11"><figcaption class="caption">Memory 11</figcaption></figure>
+<figure class="pic"><img src="photos/memory-12.jpg" alt="Memory 12"><figcaption class="caption">Memory 12</figcaption></figure>
+<figure class="pic"><img src="photos/memory-13.jpg" alt="Memory 13"><figcaption class="caption">Memory 13</figcaption></figure>
+<figure class="pic"><img src="photos/memory-14.jpg" alt="Memory 14"><figcaption class="caption">Memory 14</figcaption></figure>
+<figure class="pic"><img src="photos/memory-15.jpg" alt="Memory 15"><figcaption class="caption">Memory 15</figcaption></figure>
+<figure class="pic"><img src="photos/memory-16.jpg" alt="Memory 16"><figcaption class="caption">Memory 16</figcaption></figure>
+</div></section>
+
+<div class="quote"><div class="label">04 — A thought</div>
+<blockquote>“You don't have to have the whole road figured out. You only have to keep walking.”</blockquote></div>
+
+<section id="future"><div><div class="label">05 — The road ahead</div><h2 class="title">The story<br>isn't finished.</h2>
+<p style="color:#aaa;font-size:18px">There are still goals to chase, skills to learn, people to make proud and memories that haven't happened yet.</p></div>
+<div><div class="card"><h3>Dreams</h3><p>Keep building. Keep learning. Keep becoming.</p></div>
+<div class="card" style="margin-top:16px"><h3>A promise to myself</h3><p>Remember where the journey began — and never stop moving forward.</p></div></div></section>
+
+<footer>Made as a living memory — <b>Akash</b><br><small>© 2026 · The journey continues.</small></footer>
+</body></html>
